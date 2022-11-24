@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Weather App</title>
+    <link rel="icon" href="icons and files\favicon.png">
+    <style media="screen">
+    body{
+      background-color: #00008B;
+    }
+    .weather_icons{
+      height: 25rem;
+      display: block;
+      margin: auto;
+      margin-top: 4rem;
+    }
+    .city_input{
+      display: block;
+      text-align: center;
+      margin: auto;
+      margin-top: 2rem;
+      padding: 0.5rem 3rem;
+      border-radius: 25px;
+    }
+    .unit{
+      color: #A2A2A1FF;
+      margin-right: 1rem;
+    }
+    .unit_selector{
+      text-align: center;
+      margin-top: 1.5rem;
+    }
+    .submit_button{
+      display: block;
+      padding: 0.25rem 3rem;
+      margin: auto;
+      border-radius: 25px;
+      margin-top: 1rem;
+    }
+
+    </style>
+  </head>
+  <body>
+    <img class="weather_icons" src="https://images.ctfassets.net/hrltx12pl8hq/6TIZLa1AKeBel0yVO7ReIn/1fc0e2fd9fcc6d66b3cc733aa2547e11/weather-images.jpg?fit=fill&w=800&h=300">
+
+    <form action="/" method="post">
+      <input class="city_input" type="text" name="block1" placeholder="Enter your city name." required>
+
+      <div class="unit_selector">
+        <input type="radio" id="" name="units" value="Kelvin">
+        <label for="Kelvin" class="unit">Kelvin</label>
+        <input type="radio" id="metric" name="units" value="Celcius">
+        <label for="celcius" class="unit">Celcius</label>
+        <input type="radio" id="imperial" name="units" value="fahrenheit">
+        <label for="fahrenheit" class="unit">fahrenheit</label>
+      </div>
+
+      <button type="submit" class="submit_button">GO</button>
+
+    </form>
+  </body>
+</html>

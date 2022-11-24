@@ -1,0 +1,32 @@
+body{
+  background-color: #00008B;
+}
+.weather_icons{
+  height: 25rem;
+  display: block;
+  margin: auto;
+  margin-top: 4rem;
+}
+.city_input{
+  display: block;
+  text-align: center;
+  margin: auto;
+  margin-top: 2rem;
+  padding: 0.5rem 3rem;
+  border-radius: 25px;
+}
+.unit{
+  color: #A2A2A1FF;
+  margin-right: 1rem;
+}
+.unit_selector{
+  text-align: center;
+  margin-top: 1.5rem;
+}
+.submit_button{
+  display: block;
+  padding: 0.25rem 3rem;
+  margin: auto;
+  border-radius: 25px;
+  margin-top: 1rem;
+}
